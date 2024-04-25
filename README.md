@@ -19,6 +19,11 @@ O fluxo de trabalho com o uso do CLI se resume a baixar o sistema Mbed base, edi
 ### 1.0. Caso não tenha, instale python
 O python do anaconda pode apresentar problemas. Caso não tenha o python fora o do anaconda (ou não tenha certeza), baixe a última versão do python: https://www.python.org/downloads/
 
+Baixando do site oficial, execute o arquivo .exe. Marque a opção "Add python.exe to PATH" e clique em "Install Now". Após a instalação. clique em "Close"
+
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/c9b5b4b1-82f6-43d2-ac16-a2a34cdb62b4)
+
+
 ### 1.1. Dependências com pip install:
 1. Abra a prompt de comando (cmd no Menu Iniciar Windows)
 2. Digite e rode os seguintes comandos (para instalar o ninja e o Jinja2):
@@ -36,6 +41,21 @@ Abaixo de "Binary distributions", clique na última versão que deseja instalar.
 
 ![image](https://github.com/ThiTeiSan/CLI2-Mbed/assets/167451264/d46311f8-e886-427b-b23e-11d0815b92c5)
 
+Execute o arquivo.
+
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/c6643e1c-9edb-42a1-a73b-ab3e0b8042ed) Clique em "Next"
+
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/f15c55ff-1ed0-49ea-8fe5-1c341f5def57) Marque para aceitar os termos e clique em "Next"
+
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/8da5bf84-4f2b-49cd-885b-8ae82c9b012c) Marque para adicionar o CMake ao PATH (segunda ou terceira opção) e clique em "Next"
+
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/98d18045-5d52-4423-9689-7e47b1545b5e) Clique em "Next"
+
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/ab3fd7f4-f31d-452b-8c33-60cf584830c5) Clique em "Install" e aguarde
+
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/02f70bba-f913-4034-8e34-fad4473a57e3) Clique em "Finish"
+
+
 ### 1.3. Instalando o toolchain da arm:
 Acesse o link: https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 
@@ -43,8 +63,17 @@ Baixe o .exe do "arm-gnu-toolchain-13.2.rel1-mingw-w64-i686-arm-none-eabi"
 
 ![image](https://github.com/ThiTeiSan/CLI2-Mbed/assets/167451264/005714d3-b23d-40ea-a9bf-2d97d0cd3228)
 
+Execute o arquivo.
 
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/2c3be5ec-1523-4302-a75c-6c06155d534c) Selecione a linguagem do instalador e clique em "OK"
 
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/374f9a0b-89ea-4e95-a7de-e74cbcf100c1) Clique em "Próximo"
+
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/60e8050c-21cc-43cd-9022-a43c401c256c) Clique em "Eu concordo"
+
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/86bf542c-64b9-4a23-9892-5ca87ca59674) Clique em "Instalar"
+
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/ba767c21-e2c0-4430-8420-9446df29e6c7) Certifique-se que a terceira opção está ativada (Add path to environment variable) e clique em "Concluir".
 
 
 
@@ -58,6 +87,10 @@ Baixe o .exe do "arm-gnu-toolchain-13.2.rel1-mingw-w64-i686-arm-none-eabi"
 Resultado esperado:
 
 ![image](https://github.com/ThiTeiSan/CLI2-Mbed/assets/167451264/d34c4986-bf77-4f00-a0b6-6e802a3a7cbe)
+
+Caso apareça um erro igual ao da imagem a seguir:
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/44e113dd-9954-4641-86f6-dcfe08bad25f)
+
 
 
 ## 3. Utilizando o CLI 2
