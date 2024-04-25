@@ -91,6 +91,22 @@ Resultado esperado:
 Caso apareça um erro igual ao da imagem a seguir:
 ![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/44e113dd-9954-4641-86f6-dcfe08bad25f)
 
+Insira o comando ````pip install setuptools```` no cmd e tente novamente.
+
+Caso o erro mude para:
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/3b1a86ac-e45e-4707-804e-8d51f9cd486f)
+
+Será necessário **Instalar o Git**
+
+### 2.1. Instalando o Git, se necessário
+
+Acesse o site https://git-scm.com/download/win e instale o Standalone Installer para 64 bits. Execute o arquivo.
+
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/ac5f1dc6-0cc2-437c-93e1-f9403fbc363d) Vá clicando em "Next"
+
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/6e338068-19db-4cd5-a9f5-61a162d65692) Ao chegar nessa tela, abra as opções e selecione o Visual Studio Code (ou qualquer editor que tenha) como editor padrão. Caso não tenha nenhum instalado, utilize o "Notepad". Continue clicando em "Next"s
+
+![image](https://github.com/Insper-Mecat-LSM/CLI-2-Mbed/assets/167451264/5ea45e2c-e887-482d-b504-bc936da0e239) Quando chegar nessa página, clique em "Install" e aguarde instalar.
 
 
 ## 3. Utilizando o CLI 2
@@ -124,7 +140,7 @@ Adicionalmente, é possível importar projetos de exemplo da Mbed através do co
 mbed-tools import <example> <PATH>
 ````
 
-Por exemplo, o comando "mbed-tools import mbed-os-example-blinky \<PATH>" irá baixar o exemplo blinky.
+Por exemplo, o comando ````mbed-tools import mbed-os-example-blinky```` irá baixar o exemplo blinky em uma pasta.
 
 
 
@@ -144,6 +160,8 @@ mbed-tools compile -m <target> -t <toolchain> -f
 ````
 
 ## 4. Exemplo de uso com VSCode
+
+(Caso não tenha, link de instalação: https://code.visualstudio.com/download)
 
 - Abra o VSCode abra uma nova pasta vazia.
 - Aperte ````Ctrl````+````'```` Para abrir a prompt de comando do VSCode.
