@@ -1,7 +1,7 @@
 # CLI2-Mbed
 
 
-"CLI" é uma "Command-Line Interface", ou seja, uma interface pra realizar operações diretamente da prompt de comando. O Mbed possui a própria CLI (atualmente a CLI2) que consegue compilar códigos para placas que utilizam o mbed, facilitando o uso dos usuários. Comparando com o Keil Studio, por exemplo, o CLI as vantagens do CLI seriam:
+"CLI" é uma "Command-Line Interface", ou seja, uma interface pra realizar operações diretamente da prompt de comando. O Mbed possui a própria CLI (atualmente a CLI2) que consegue compilar códigos para placas que utilizam o mbed, facilitando o uso dos usuários. Comparando com o Keil Studio, por exemplo, as vantagens do CLI seriam:
 
 - Maior customização (possibilidade de escolha do ambiente de programação)
 - Possibilidade de trabalhar offline
